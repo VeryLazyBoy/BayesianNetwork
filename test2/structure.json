@@ -1,0 +1,24 @@
+{
+    "variables": {
+        "Cavity": [
+            "True",
+            "False"
+        ],
+        "Toothache": [
+            "True",
+            "False"
+        ],
+        "Catch": [
+            "True",
+            "False"
+        ]
+    },
+    "dependencies": {
+        "Toothache": [
+            "Cavity"
+        ],
+        "Catch": [
+            "Cavity"
+        ]
+    }
+}

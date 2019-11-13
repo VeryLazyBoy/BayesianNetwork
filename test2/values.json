@@ -1,0 +1,54 @@
+{
+    "prior_probabilities": {
+        "Cavity": {
+            "True": 0.6,
+            "False": 0.4
+        }
+    },
+    "conditional_probabilities": {
+        "Toothache": [
+            {
+                "Cavity": "True",
+                "own_value": "True",
+                "probability": 0.9
+            },
+            {
+                "Cavity": "True",
+                "own_value": "False",
+                "probability": 0.1
+            },
+            {
+                "Cavity": "False",
+                "own_value": "True",
+                "probability": 0.4
+            },
+            {
+                "Cavity": "False",
+                "own_value": "False",
+                "probability": 0.6
+            }
+        ],
+        "Catch": [
+            {
+                "Cavity": "True",
+                "own_value": "True",
+                "probability": 0.8
+            },
+            {
+                "Cavity": "True",
+                "own_value": "False",
+                "probability": 0.2
+            },
+            {
+                "Cavity": "False",
+                "own_value": "True",
+                "probability": 0.1
+            },
+            {
+                "Cavity": "False",
+                "own_value": "False",
+                "probability": 0.9
+            }
+        ]
+    }
+}

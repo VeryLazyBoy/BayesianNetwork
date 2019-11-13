@@ -1,0 +1,12 @@
+[
+    {
+        "index" : 1,
+        "given" : {"Toothache" : "False"},
+        "tofind" : {"Cavity" : "True"}
+    },
+    {
+        "index" : 2,
+        "given" : {"Toothache" : "True"},
+        "tofind" : {"Catch": "True"}
+    }
+]
