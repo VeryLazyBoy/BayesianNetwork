@@ -1,0 +1,36 @@
+{
+    "variables": {
+        "Burglary": [
+            "True",
+            "False"
+        ],
+        "Earthquake": [
+            "True",
+            "False"
+        ],
+        "Alarm": [
+            "True",
+            "False"
+        ],
+        "JohnCalls": [
+            "True",
+            "False"
+        ],
+        "MaryCalls": [
+            "True",
+            "False"
+        ]
+    },
+    "dependencies": {
+        "Alarm": [
+            "Burglary",
+            "Earthquake"
+        ],
+        "JohnCalls": [
+            "Alarm"
+        ],
+        "MaryCalls": [
+            "Alarm"
+        ]
+    }
+}

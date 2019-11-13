@@ -1,0 +1,12 @@
+[
+    {
+        "index" : 1,
+        "given" : {"Alarm" : "False"},
+        "tofind" : {"MaryCalls" : "True"}
+    },
+    {
+        "index" : 2,
+        "given" : {"Burglary": "False", "Earthquake": "True"},
+        "tofind" : {"Alarm": "False"}
+    }
+]
